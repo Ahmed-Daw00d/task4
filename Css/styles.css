@@ -12,4 +12,22 @@ html {
 body {
   height: 100%;
   width: 100%;
+  background-image: url(../Images/header-bg.jpg);
+  background-repeat: no-repeat;
+}
+
+body > div > section {
+  margin: 10px auto;
+  width: 1140px;
+}
+
+body div section header {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  padding-left: 10px;
 }
