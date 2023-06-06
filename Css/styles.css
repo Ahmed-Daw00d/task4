@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Courier New", "Courier", "monospace";
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
