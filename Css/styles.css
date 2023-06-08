@@ -88,6 +88,7 @@ button {
   color: #efe2e5;
   padding: 15px 15px;
   text-align: center;
+  outline-style: none;
 }
 
 body section div section form div {
@@ -108,6 +109,29 @@ h1 {
   font-size: xx-large;
 }
 
+/*sec-3*/
+.sec-3 {
+  background: rgba(20, 20, 20, 0.9) url(../Images/callaction-bg.jpg) no-repeat
+    center center fixed;
+  background-size: 100% 100%;
+
+  background-blend-mode: darken;
+  margin-top: 30px;
+  height: 300px;
+  color: aliceblue;
+  text-align: center;
+}
+
+section.sec-3 > div {
+  padding: 50px 20px;
+}
+section.sec-3 > div >h1,p,button{
+  padding: 20px 20px;
+}
+section.sec-3 > div >button{
+  background-color: rgba(236, 218, 19, 0);
+color: #e8ae0d;
+}
 /*sec-6*/
 .flexsec6 {
   display: flex;
@@ -126,4 +150,44 @@ div.card {
   margin: 5px 0px;
   display: block;
   width: 50%;
+}
+
+/*sec-7*/
+ul {
+  list-style: none;
+}
+
+footer {
+  background-color: #04091d;
+  color: #efe2e5;
+}
+
+footer > div.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 5px;
+  text-align: center;
+}
+
+.inputsear {
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 30px;
+}
+#button2 {
+  background-color: #e8ae0d;
+  text-transform: uppercase;
+  color: #efe2e5;
+  padding: 5px 5px;
+  position: absolute;
+  right: 0.2px;
+
+  text-align: center;
+  height: 30px;
+  outline-style: none;
+}
+
+li {
+  margin: 10px auto;
+  position: relative;
 }
