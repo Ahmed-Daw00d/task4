@@ -18,9 +18,11 @@ body {
 */
 
 #sec-1 {
-  background: rgba(23, 22, 22, 0.8) url(../Images/header-bg.jpg) no-repeat
-    center center;
-  background-blend-mode: luminosity;
+  background: rgba(20, 20, 20, 0.9) url(../Images/header-bg.jpg) no-repeat
+    center center fixed;
+  background-size: 100% 100%;
+
+  background-blend-mode: darken;
 }
 
 .container {
@@ -41,6 +43,7 @@ a {
   text-align: center;
   text-transform: uppercase;
   transform: scale(2, 0, 5);
+  transition: all 0.5s;
 }
 a:hover {
   background-color: rgb(48, 48, 99);
@@ -63,15 +66,19 @@ form {
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-  background-color: rgba(11, 10, 12, 0.5);
-  padding: 30px 30px;
+  background-color: rgba(25, 13, 37, 0.5);
+  padding: 50px 30px;
   color: #efe2e5;
+  width: 40%;
+  text-align: start;
+
+  font-size: medium;
 }
 
 .input {
   border-radius: 5px;
-  height: 35px;
-  margin: 5px 5px;
+  height: 40px;
+  margin: 7px 5px;
   padding-left: 10px;
 }
 
@@ -79,6 +86,44 @@ button {
   background-color: #f9b700;
   text-transform: uppercase;
   color: #efe2e5;
+  padding: 15px 15px;
+  text-align: center;
 }
 
-body section div 
+body section div section form div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fonthead {
+  color: #efe2e5;
+
+  margin: auto 0px;
+  width: 45%;
+}
+.marginhead {
+  margin: 25px 5px;
+}
+h1 {
+  font-size: xx-large;
+}
+
+/*sec-6*/
+.flexsec6 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+div.card {
+  margin: 15px 15px;
+}
+
+.date {
+  background-color: black;
+  color: #efe2e5;
+  padding: 5px 5px;
+  margin: 5px 0px;
+  display: block;
+  width: 50%;
+}
