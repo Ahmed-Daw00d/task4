@@ -109,8 +109,8 @@ h1 {
   font-size: xx-large;
 }
 
-/*sec-3*/
-.sec-3 {
+/*sec-5*/
+.sec-5 {
   background: rgba(20, 20, 20, 0.9) url(../Images/callaction-bg.jpg) no-repeat
     center center fixed;
   background-size: 100% 100%;
@@ -122,13 +122,13 @@ h1 {
   text-align: center;
 }
 
-section.sec-3 > div {
+section.sec-5 > div {
   padding: 50px 20px;
 }
-section.sec-3 > div >h1,p,button{
+section.sec-5 > div >h1,p,button{
   padding: 20px 20px;
 }
-section.sec-3 > div >button{
+section.sec-5 > div >button{
   background-color: rgba(236, 218, 19, 0);
 color: #e8ae0d;
 }
